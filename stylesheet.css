@@ -1,0 +1,63 @@
+body{
+  background-color: aqua;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  color:white;
+  padding: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  table,td,th {
+    border: 1px solid grey;
+    text-align: left;
+   
+  }
+  table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px;
+  }
+  
+
+  .card {
+    
+    background-color: white;
+    box-shadow: 5px 4px 8px 0 black;
+    width: 50%;
+    height:500px;
+    margin: 10% 25%;
+    text-align: center;
+    
+  }
+  .card2{
+    
+    background-color: white;
+    box-shadow: 5px 4px 8px 0 black;
+    width: 47%;
+    height:550px;
+    margin: 10% 25%;
+    padding:20px;
+    
+  }
+   .register {
+    width: 100%;
+  }
